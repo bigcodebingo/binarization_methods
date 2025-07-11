@@ -10,7 +10,7 @@ from src.models.methods.Bradley import Bradley
 
 class Controller:
     def __init__(self, view):
-        self.view = view
+        self.view: None = None
         self.image = None
         self.result = None
 
